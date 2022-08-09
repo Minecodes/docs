@@ -1,0 +1,40 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# NPM Git Test
+
+This is a NPM package test to test the installation over Github.
+
+## Installation
+
+```mdx-code-block
+<Tabs>
+<TabItem value="yarn" label="Yarn">
+```
+
+```bash
+yarn add github:Minecodes/npm-git-test
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="npm" label="NPM">
+```
+
+```bash
+npm i git+https://github.com/Minecodes/npm-git-test
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+## Example
+
+```javascript
+const npmGitTest = require('npm-git-test')
+npmGitTest.run('Welcome back ;)', 'root', 'toor', false, () => {
+  console.log('Hello World!');
+})
+```

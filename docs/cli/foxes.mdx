@@ -1,0 +1,109 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# foxes
+
+This is randomfox as an cli app for Windows, MacOS(not for ARM) and Linux.<br/>
+This is a API and now in TypeScript too. 👍😉 [![CodeFactor](https://www.codefactor.io/repository/github/minecodes/foxes/badge)](https://www.codefactor.io/repository/github/minecodes/foxes)
+
+## How to use
+
+To get an image, type:
+
+```mdx-code-block
+<Tabs>
+<TabItem value="cli" label="CLI">
+```
+
+```bash
+foxes
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="npx" label="with NPX">
+```
+
+```bash
+npx foxes
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+To get use custom images:
+
+```mdx-code-block
+<Tabs>
+<TabItem value="cli" label="CLI">
+```
+
+```bash
+foxes -c "url1 url2 url3"
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="npx" label="with NPX">
+```
+
+```bash
+npx foxes -c "url1 url2 url3
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+### Command list
+
+- `foxes -h`: Show help
+- `foxes -v`: Custom images
+- `foxes`: Get an random fox image url
+- `foxes -c ""`: Get an random url from the arguments (space separated)
+
+## Installation
+
+```mdx-code-block
+<Tabs>
+<TabItem value="yarn" label="Yarn">
+```
+
+```bash
+yarn global add foxes
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="yarngit" label="Yarn Git">
+```
+
+```bash
+yarn global add github:Minecodes/foxes
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="npm" label="NPM">
+```
+
+```bash
+npm i -g foxes
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="npmgit" label="NPM Git">
+```
+
+```bash
+npm i -g git+https://github.com/Minecodes/foxes
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```

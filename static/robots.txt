@@ -1,0 +1,14 @@
+# Me gusta los trenes
+# Ich mag Züge
+# I like trains
+# Jeg liker tog
+# szeretem a vonatokat
+# 私は電車が好きです
+# Watashi wa densha ga sukidesu
+# mi piacciono i treni
+# Aku seneng sepur
+# Ech hu gär Zich
+# ik hou van treinen
+
+User-agent: *
+Disallow:

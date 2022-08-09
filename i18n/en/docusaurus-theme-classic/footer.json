@@ -1,0 +1,70 @@
+{
+  "link.title.Pages": {
+    "message": "Pages",
+    "description": "The title of the footer links column with title=Pages in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Docs": {
+    "message": "Docs",
+    "description": "The label of footer link with label=Docs linking to /docs/intro"
+  },
+  "link.item.label.Old website": {
+    "message": "Old website",
+    "description": "The label of footer link with label=Old website linking to https://old.minecodes.de"
+  },
+  "link.item.label.Old Gitlab": {
+    "message": "Old Gitlab",
+    "description": "The label of footer link with label=Old Gitlab linking to https://minecodes13.gitlab.io/Minecodes/"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/Minecodes"
+  },
+  "link.item.label.GitLab": {
+    "message": "GitLab",
+    "description": "The label of footer link with label=GitLab linking to https://gitlab.com/Minecodes13"
+  },
+  "link.item.label.Youtube": {
+    "message": "Youtube",
+    "description": "The label of footer link with label=Youtube linking to https://youtube.com/Minecodes"
+  },
+  "link.item.label.Twitch": {
+    "message": "Twitch",
+    "description": "The label of footer link with label=Twitch linking to https://twitch.com/Minecodes"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/ngZaGzPnmq"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/minecodes_"
+  },
+  "link.item.label.Mastodon": {
+    "message": "Mastodon",
+    "description": "The label of footer link with label=Mastodon linking to https://mastodon.social/@minecodes"
+  },
+  "link.item.label.Reddit": {
+    "message": "Reddit",
+    "description": "The label of footer link with label=Reddit linking to https://reddit.com/r/minecodes"
+  },
+  "link.item.label.dev.to": {
+    "message": "dev.to",
+    "description": "The label of footer link with label=dev.to linking to https://dev.to/minecodes"
+  },
+  "link.item.label.Docusaurus": {
+    "message": "Docusaurus",
+    "description": "The label of footer link with label=Docusaurus linking to https://docusaurus.io/"
+  },
+  "copyright": {
+    "message": "Copyright © 2022 Minecodes. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

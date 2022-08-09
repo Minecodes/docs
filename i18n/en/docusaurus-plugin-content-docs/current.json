@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.cli": {
+    "message": "cli",
+    "description": "The label for category cli in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.lib": {
+    "message": "lib",
+    "description": "The label for category lib in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.tests": {
+    "message": "tests",
+    "description": "The label for category tests in sidebar tutorialSidebar"
+  }
+}
