@@ -1,0 +1,182 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# ps-logger
+![](/img/ps-logger.PNG)
+
+ps-logger ist ein produktionstauglicher Logger, der im Wesentlichen zum Protokollieren von Informationen, Warnungen, Fehlern, dummen Ausgaben, ausführlichen Logs, Eingabeaufforderungs- und Debug-Anweisungen verwendet wird
+
+:::note
+
+Ich bin nur ein Mitwirkender des Packets, aber ich möchte es fördern. Es ist wirklich nützlich und ich denke, dass auch andere Leute es nützlich finden werden.
+And I wanted to make an additional version of the documentation.
+
+NPM: https://npmjs.org/package/ps-logger<br/>
+Yarn: https://yarn.pm/ps-logger<br/>
+Github: https://github.com/thisisshivanshpatel/ps-logger
+
+:::
+
+## Installation
+
+```mdx-code-block
+<Tabs>
+<TabItem value="yarn" label="Yarn">
+```
+
+```bash
+yarn add ps-logger
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="npm" label="NPM">
+```
+
+```bash
+npm i ps-logger
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+## Nutzung
+
+```mdx-code-block
+<Tabs>
+<TabItem value="info" label="Info">
+```
+
+```javascript
+const logger = require('ps-logger');
+
+logger.info('Dies ist eine simple Info.');
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="warning" label="Warnung">
+```
+
+```javascript
+const logger = require('ps-logger');
+
+logger.warn('Dies ist eine Warnung.');
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="error" label="Fehler">
+```
+
+```javascript
+const logger = require('ps-logger');
+
+logger.error('Dies ist ein FEHLER!');
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="debug" label="Protokolierung">
+```
+
+```javascript
+const logger = require('ps-logger');
+
+logger.debug('Dies ist eine Protokolierungs Nachricht um zu protokolieren');
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="prompt" label="Eingabeaufforderung">
+```
+
+```javascript
+const logger = require('ps-logger');
+
+logger.prompt('Dies ist eine Eingabeaufforderung.');
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="verbose" label="ausführliche Nachricht">
+```
+
+```javascript
+const logger = require('ps-logger');
+
+logger.verbose('Dies ist eine sehr ausführliche Nachricht von ps-logger');
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="silly" label="dumme Nachricht">
+```
+
+```javascript
+const logger = require('ps-logger');
+
+logger.silly('Diese Nachricht ist dumm.');
+```
+
+```mdx-code-block
+</TabItem>
+
+</Tabs>
+```
+
+### Farben aktivieren oder deaktiviern
+
+- Standart: `true`
+- Farben abschalten:
+
+```javascript
+const logger = require('ps-logger');
+
+logger.setColor(false);
+```
+
+### In TypeScript
+
+
+```mdx-code-block
+<Tabs>
+<TabItem value="everything" label="Jedes Modul importiert">
+```
+
+```typescript
+import logger from 'ps-logger';
+
+logger.info('Mit jedem importierten Modul testen');
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="single" label="Einzelnes Modul importiert">
+```
+
+```typescript
+import { info } from 'ps-logger';
+
+info('Test mit einer einzelnen importierung.');
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+## Beispiel
+
+```javascript
+const logger = require('ps-logger');
+const fs = require('fs');
+
+if (fs.existsSync('./package.json')) {
+  logger.info('package.json existiert');
+} else {
+  logger.error('package.json existiert nicht');
+}
+```

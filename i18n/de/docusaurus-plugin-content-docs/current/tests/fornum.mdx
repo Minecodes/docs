@@ -1,0 +1,57 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# fornum
+Dieses Paket wiederholt Funktion mit einer gegebenen Anzahl.
+
+## Installation
+
+```mdx-code-block
+<Tabs>
+<TabItem value="yarn" label="Yarn">
+```
+
+```bash
+yarn add fornum-minecodes
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="yarngit" label="Yarn Git">
+```
+
+```bash
+yarn add github:Minecodes/fornum
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="npm" label="NPM">
+```
+
+```bash
+npm i fornum-minecodes
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="npmgit" label="NPM Git">
+```
+
+```bash
+npm i git+https://github.com/Minecodes/fornum
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+## Nutzung / Beispiel
+
+```javascript
+const fornum = require("fornum-minecodes");
+fornum(() => {
+  console.log("Hallo Welt :P");
+}, 4);
+```

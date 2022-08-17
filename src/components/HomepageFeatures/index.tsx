@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Translate, {translate} from '@docusaurus/Translate';
 
 type FeatureItem = {
   title: string;
@@ -14,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     //Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        
+
       </>
     ),
   },
@@ -22,12 +23,12 @@ const FeatureList: FeatureItem[] = [
     title: 'Information',
     //Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
-      <>
+      <Translate>
         Here are not all repositories of Github and Gitlab.
         Why? Simple. They're not all by me, public, finished or maintained.
         Don't worry, this will be extended in the future.
         Maybe I'm adding repos from C0D3LUN4, netDevils, Tasudo, HomakiThemes or foxes-pkg later.
-      </>
+      </Translate>
     ),
   },
   {

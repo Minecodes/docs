@@ -1,0 +1,46 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Discord.Webhook
+
+:::caution
+
+Dieses Repository wird nicht mehr aktualisiert.
+Es ist ein öffentliches Archiv und die verwendete API-Version ist veraltet.
+
+:::
+
+Eine Webhook Bibliothek
+
+## Installation
+
+```mdx-code-block
+<Tabs>
+<TabItem value="yarn" label="Yarn">
+```
+
+```bash
+yarn add github:Minecodes/Discord.Webhook
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="npm" label="NPM">
+```
+
+```bash
+npm i git+https://github.com/Minecodes/Discord.Webhook
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+## Beispiel
+
+```javascript
+const { hook } = require('Discord.Webhook');
+
+hook('webhook id', 'webhook token', 'message')
+```

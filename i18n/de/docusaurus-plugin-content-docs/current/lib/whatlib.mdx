@@ -1,0 +1,223 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Whatlib
+![](/img/whatlib.png)
+
+Eine multifunktionale Bibliothek für Challanges und Programmierer, die verrückte Optionen von
+NodeJS ausprobieren wollen.
+
+## Installation
+
+```mdx-code-block
+<Tabs>
+<TabItem value="yarn" label="Yarn">
+```
+
+```bash
+yarn add whatlib
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="npm" label="NPM">
+```
+
+```bash
+npm i whatlib
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+## Dokumentation
+### If-Methoden
+#### isbool()
+
+```mdx-code-block
+<Tabs>
+<TabItem value="ts" label="Typescript">
+```
+
+```typescript
+import { isbool } from "whatlib/is"
+
+console.log(isbool(true))   // Ausgabe: true
+console.log(isbool(false))  // Ausgabe: true
+console.log(isbool("hi"))   // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="js" label="JavaScript">
+```
+
+```javascript
+const { isbool } = require("whatlib/is")
+
+console.log(isbool(true))   // Ausgabe: true
+console.log(isbool(false))  // Ausgabe: true
+console.log(isbool("hi"))   // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+#### isfunc()
+
+```mdx-code-block
+<Tabs>
+<TabItem value="ts" label="Typescript">
+```
+
+```typescript
+import { isfunc } from "whatlib/is"
+
+console.log(isfunc(() => {console.log("lol")}))   // Ausgabe: true
+console.log(isfunc("hi"))                         // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="js" label="JavaScript">
+```
+
+```javascript
+const { isbool } = require("whatlib/is")
+
+console.log(isfunc(() => {console.log("lol")}))   // Ausgabe: true
+console.log(isfunc("hi"))                         // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+#### isnum()
+
+```mdx-code-block
+<Tabs>
+<TabItem value="ts" label="Typescript">
+```
+
+```typescript
+import { isnum } from "whatlib/is"
+
+console.log(isnum(5))                            // Ausgabe: true
+console.log(isnum("hi"))                        // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="js" label="JavaScript">
+```
+
+```javascript
+const { isnum } = require("whatlib/is")
+
+console.log(isnum())                             // Ausgabe: true
+console.log(isnum("hi"))                         // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+#### isobj()
+
+```mdx-code-block
+<Tabs>
+<TabItem value="ts" label="Typescript">
+```
+
+```typescript
+import { isobj } from "whatlib/is"
+
+console.log(isobj({}))                           // Ausgabe: true
+console.log(isobj("hi"))                         // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="js" label="JavaScript">
+```
+
+```javascript
+const { isobj } = require("whatlib/is")
+
+console.log(isobj({}))                           // Ausgabe: true
+console.log(isobj("hi"))                         // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+#### isstr()
+
+```mdx-code-block
+<Tabs>
+<TabItem value="ts" label="Typescript">
+```
+
+```typescript
+import { isstr } from "whatlib/is"
+
+console.log(isstr("hi"))                         // Ausgabe: true
+console.log(isstr(5))                            // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="js" label="JavaScript">
+```
+
+```javascript
+const { isstr } = require("whatlib/is")
+
+console.log(isstr("hi"))                         // Ausgabe: true
+console.log(isstr(5))                            // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+#### issymb()
+
+```mdx-code-block
+<Tabs>
+<TabItem value="ts" label="Typescript">
+```
+
+```typescript
+import { issymb } from "whatlib/is"
+
+console.log(issymb(Symbol("hi")))       // Ausgabe: true
+console.log(issymb("hi"))               // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="js" label="JavaScript">
+```
+
+```javascript
+const { issymb } = require("whatlib/is")
+
+console.log(issymb(Symbol("hi")))       // Ausgabe: true
+console.log(issymb("hi"))               // Ausgabe: false
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```

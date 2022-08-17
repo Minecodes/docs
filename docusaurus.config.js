@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en']
+    locales: ['en', 'de']
   },
 
   presets: [
@@ -69,10 +69,10 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          /**{
+          {
             type: 'localeDropdown',
             position: 'right',
-          },**/
+          },
           {
             href: 'https://github.com/Minecodes/docs',
             label: 'GitHub',
@@ -92,7 +92,7 @@ const config = {
               },
               {
                 label: 'Old website',
-                to: 'https://old.minecodes.de',
+                to: 'https://github.com/Minecodes/codeluna-vue',
               },
               {
                 label: 'Old Gitlab',
