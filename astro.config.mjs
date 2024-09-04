@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightImageZoom from "starlight-image-zoom";
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,6 +12,11 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/Minecodes/docs',
 			},
+			plugins: [
+				starlightImageZoom({
+					showCaptions: true,
+				}),
+			],
 			sidebar: [
 				{
 					label: 'Docs',

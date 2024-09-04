@@ -38,9 +38,9 @@ Now you can boot from USB. To do this, follow these steps:
 For this, the developer mode has to be enabled. This is only needed if you want to flash a custom firmware. You'll need a screwdriver to open the Chromebook. If you have a IFixit kit, you can use the PH0 head, and the slotted 2 or a plastic opening tool for opening the clips inside.
 
 1. Turn off the Chromebook.
-2. Open the Chromebook by removing the screws on the bottom. And then carefully open the clips inside.
-3. Disconnect the battery from the motherboard.
-4. Now boot up the Chromebook with the battery disconnected. Now the write protection should be disabled.
+2. Open the Chromebook by removing the screws on the bottom. And then carefully open the clips inside. ![Locations of the 10 screws](/acercr314screw.jpg)
+3. Disconnect the battery from the motherboard. ![Location of the battery connector](/acercr314batloc.jpg) ![Battery disconnected](/acercr314batcon.jpg)
+4. Now boot up the Chromebook with the battery disconnected. Now the write protection should be disabled.   
 
 If it didn't work, you can see more methods on [MrChromebox.tech](https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html).
 
