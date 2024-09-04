@@ -20,4 +20,4 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-src/docs/index.mdx.bak
+src/content/docs/index.mdx.bak
